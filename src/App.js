@@ -18,10 +18,14 @@ class App extends React.Component {
 
   changeBinary = (e) => {
     const binary = e.target.value;
-    this.setState({
-      binary,
-      decimal: this.bin2dec(binary)
-    });
+    const isValidInput = /^[01]*$/.test(binary);
+    if(isValidInput)
+      this.setState({
+        binary,
+        decimal: this.bin2dec(binary)
+      });
+    else
+      alert('Only valid 1 or 0');
   };
 
   changeDecimal = (e) => {
@@ -34,7 +38,7 @@ class App extends React.Component {
       <div className='App'>
         <div className='bin'>
           <div className='bin-form'>
-            <input type='text' className='binary-text' value={binary} onChange={this.changeBinary} />
+            <input type='text' className='binary-text' value={binary} onChange={this.changeBinary} maxLength='8'/>
             <div className='binary-line' />
           </div>
         </div>
