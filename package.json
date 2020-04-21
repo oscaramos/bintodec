@@ -1,5 +1,6 @@
 {
-  "name": "bintodec",
+  "short_name": "bin2dec",
+  "name": "bin2dec",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://oscaramos.github.io/bintodec",
