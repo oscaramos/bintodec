@@ -30,32 +30,50 @@
   background: linear-gradient(90deg, #36F17D 0%, #11998E 100%);
 }
 
-.input-text {
+.bin-form {
+  width: 275px;
+}
+
+.dec-form {
+  width: 275px;
+}
+
+.binary-text {
+  width: 100%;
+  border: 0;
+
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
   line-height: 78px;
 
+  outline: none;
   color: #000000;
+  background-color:transparent;
 }
 
-.output-text {
+.decimal-text {
+  width: 100%;
+  border: 0;
+
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
   line-height: 78px;
 
+  outline: none;
   color: #FFFFFF;
+  background-color:transparent;
 }
 
-.input-line {
-  width: 274px;
+.binary-line {
+  width: 100%;
   border: 2px solid #000000;
 }
 
-.output-line {
-  width: 274px;
+.decimal-line {
+  width: 100%;
   border: 2px solid #FFFFFF;
 }
