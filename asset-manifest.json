@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bintodec/static/css/main.251e0600.chunk.css",
+    "main.js": "/bintodec/static/js/main.7e6146e9.chunk.js",
+    "main.js.map": "/bintodec/static/js/main.7e6146e9.chunk.js.map",
+    "runtime-main.js": "/bintodec/static/js/runtime-main.930b3b7c.js",
+    "runtime-main.js.map": "/bintodec/static/js/runtime-main.930b3b7c.js.map",
+    "static/js/2.27a5681a.chunk.js": "/bintodec/static/js/2.27a5681a.chunk.js",
+    "static/js/2.27a5681a.chunk.js.map": "/bintodec/static/js/2.27a5681a.chunk.js.map",
+    "index.html": "/bintodec/index.html",
+    "precache-manifest.ae9427cdc46852ed8f8ae727f27d7d6a.js": "/bintodec/precache-manifest.ae9427cdc46852ed8f8ae727f27d7d6a.js",
+    "service-worker.js": "/bintodec/service-worker.js",
+    "static/css/main.251e0600.chunk.css.map": "/bintodec/static/css/main.251e0600.chunk.css.map",
+    "static/js/2.27a5681a.chunk.js.LICENSE.txt": "/bintodec/static/js/2.27a5681a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.930b3b7c.js",
+    "static/js/2.27a5681a.chunk.js",
+    "static/css/main.251e0600.chunk.css",
+    "static/js/main.7e6146e9.chunk.js"
+  ]
+}
