@@ -10,19 +10,37 @@ class App extends React.Component {
     };
   }
 
+  bin2dec = binary => {
+    return binary.split('').reverse().reduce(
+      (prev, value, index) => prev + value * (2 ** index)
+    , 0)
+  };
+
+  changeBinary = (e) => {
+    const binary = e.target.value;
+    this.setState({
+      binary,
+      decimal: this.bin2dec(binary)
+    });
+  };
+
+  changeDecimal = (e) => {
+    this.setState({decimal: e.target.value});
+  };
+
   render() {
     const { binary, decimal } = this.state;
     return (
       <div className='App'>
         <div className='bin'>
           <div className='bin-form'>
-            <input type='text' className='binary-text' value={binary} />
+            <input type='text' className='binary-text' value={binary} onChange={this.changeBinary} />
             <div className='binary-line' />
           </div>
         </div>
         <div className='dec'>
           <div className='dec-form'>
-            <input type='text' className='decimal-text' value={decimal} />
+            <input type='text' className='decimal-text' value={decimal} onChange={this.changeDecimal} />
             <div className='decimal-line' />
           </div>
         </div>
