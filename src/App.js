@@ -38,7 +38,7 @@ class App extends React.Component {
       <div className='App'>
         <div className='bin'>
           <div className='bin-form'>
-            <input type='text' className='binary-text' value={binary} onChange={this.changeBinary} maxLength='8'/>
+            <input type='text' className='binary-text' value={binary} onChange={this.changeBinary}/>
             <div className='binary-line' />
           </div>
         </div>
