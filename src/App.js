@@ -11,9 +11,10 @@ class App extends React.Component {
   }
 
   bin2dec = binary => {
-    return binary.split('').reverse().reduce(
+    const decimal = binary.split('').reverse().reduce(
       (prev, value, index) => prev + value * (2 ** index)
-      , 0)
+      , 0);
+    return !decimal ? '' : decimal;
   };
 
   dec2bin = decimal => {
