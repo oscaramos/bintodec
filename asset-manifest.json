@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bintodec/static/css/main.251e0600.chunk.css",
-    "main.js": "/bintodec/static/js/main.26dcdbd8.chunk.js",
-    "main.js.map": "/bintodec/static/js/main.26dcdbd8.chunk.js.map",
+    "main.css": "/bintodec/static/css/main.449b482a.chunk.css",
+    "main.js": "/bintodec/static/js/main.bdb96c48.chunk.js",
+    "main.js.map": "/bintodec/static/js/main.bdb96c48.chunk.js.map",
     "runtime-main.js": "/bintodec/static/js/runtime-main.c05a46e4.js",
     "runtime-main.js.map": "/bintodec/static/js/runtime-main.c05a46e4.js.map",
     "static/js/2.805d4682.chunk.js": "/bintodec/static/js/2.805d4682.chunk.js",
     "static/js/2.805d4682.chunk.js.map": "/bintodec/static/js/2.805d4682.chunk.js.map",
     "index.html": "/bintodec/index.html",
-    "precache-manifest.2cd7e34e48d7bbb7f055d50d6f0c2b3a.js": "/bintodec/precache-manifest.2cd7e34e48d7bbb7f055d50d6f0c2b3a.js",
+    "precache-manifest.3c6ef92d9d3c05ed6aefa8e3bfab5369.js": "/bintodec/precache-manifest.3c6ef92d9d3c05ed6aefa8e3bfab5369.js",
     "service-worker.js": "/bintodec/service-worker.js",
-    "static/css/main.251e0600.chunk.css.map": "/bintodec/static/css/main.251e0600.chunk.css.map",
+    "static/css/main.449b482a.chunk.css.map": "/bintodec/static/css/main.449b482a.chunk.css.map",
     "static/js/2.805d4682.chunk.js.LICENSE.txt": "/bintodec/static/js/2.805d4682.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c05a46e4.js",
     "static/js/2.805d4682.chunk.js",
-    "static/css/main.251e0600.chunk.css",
-    "static/js/main.26dcdbd8.chunk.js"
+    "static/css/main.449b482a.chunk.css",
+    "static/js/main.bdb96c48.chunk.js"
   ]
 }

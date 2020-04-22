@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f31c85467dd7b534e4c697ea8998bac1",
+    "revision": "f1c3d5aec34ed88455788618465a597f",
     "url": "/bintodec/index.html"
   },
   {
-    "revision": "b347754b7a0aa5d5ad96",
-    "url": "/bintodec/static/css/main.251e0600.chunk.css"
+    "revision": "6ff04db1777434a5e7b2",
+    "url": "/bintodec/static/css/main.449b482a.chunk.css"
   },
   {
     "revision": "3252efb947d896716360",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bintodec/static/js/2.805d4682.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b347754b7a0aa5d5ad96",
-    "url": "/bintodec/static/js/main.26dcdbd8.chunk.js"
+    "revision": "6ff04db1777434a5e7b2",
+    "url": "/bintodec/static/js/main.bdb96c48.chunk.js"
   },
   {
     "revision": "41227e297e7ae3057c99",
